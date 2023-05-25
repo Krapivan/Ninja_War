@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: title_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0218fd822d4601a46af576505ba56326, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 9075a76016d714d4eae255bcffb7f0d4: 21300000
+    - ad122983d7bba3d4db88ef78f0420b49: 21300000
+    - a7e74f4564103144fa2c4b8110b7260d: 21300000
+    - 760ce0e5762eed94c949c773dca0051d: 21300000
+    - f3b9efe50e0a9b441bdbce27143fe058: 21300000
+    - 6277a727112f6bb42af88f7bae1243d2: 21300000
+    - 9188f9185d7ed2c4597d391984c930cf: 21300000
+    - 31829d1bc4a6c2b41a9ae4630d591443: 21300000
+    - 42c9145c9fe9ea241a0eb5110ce5c3de: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9075a76016d714d4eae255bcffb7f0d4, type: 3}
+  - {fileID: 21300000, guid: ad122983d7bba3d4db88ef78f0420b49, type: 3}
+  - {fileID: 21300000, guid: a7e74f4564103144fa2c4b8110b7260d, type: 3}
+  - {fileID: 21300000, guid: 760ce0e5762eed94c949c773dca0051d, type: 3}
+  - {fileID: 21300000, guid: f3b9efe50e0a9b441bdbce27143fe058, type: 3}
+  - {fileID: 21300000, guid: 6277a727112f6bb42af88f7bae1243d2, type: 3}
+  - {fileID: 21300000, guid: 9188f9185d7ed2c4597d391984c930cf, type: 3}
+  - {fileID: 21300000, guid: 31829d1bc4a6c2b41a9ae4630d591443, type: 3}
+  - {fileID: 21300000, guid: 42c9145c9fe9ea241a0eb5110ce5c3de, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - del_acc
+  - Backflow_Selected
+  - new_user_name_pn
+  - pn(512x140)
+  - title_bg
+  - Type2
+  - exit_b
+  - setting
+  - yes_no_b
+  m_RenderDataMap: {}
+  m_Tag: title_atlas
+  m_IsVariant: 0

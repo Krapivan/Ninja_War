@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: c711c406083bff342b04b774f1f02606
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - user_rune_db: {fileID: 11400000, guid: 91799a6c4535b6e409c7d7927bebb710, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

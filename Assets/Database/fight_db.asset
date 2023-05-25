@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73787bcaca2c2943bc9b765b7cef394, type: 3}
+  m_Name: fight_db
+  m_EditorClassIdentifier: 
+  _part_num: 1
+  _spawn_hero_name: Naruto [Genin]_ally
+  _spawn_hero_is_ally: 1
+  _spawn_hero_is_clone: 1
+  _spawn_sk_type: ps
+  _spawn_sk_name: Ero Jutsu
+  _spawn_sk_hero_name: Naruto [Genin]
+  _ally_team:
+  - {fileID: 0}
+  _enemy_team:
+  - {fileID: 0}
+  _enemy_lv: 1
+  _enemy_bonus: -4
+  _turn_hero: {fileID: 0}
+  _turn_lock: 1
+  _aim: {fileID: 0}
+  _ch_sk_name: Shadow Clone
+  _cl_hp: 503
+  _cl_atk: 283
+  _cl_def: 369
+  _cl_spd: 87
+  _cl_crr: 15
+  _cl_crd: 50
+  _cl_acc: 0
+  _cl_res: 0
+  _spawn_ef_name: 
+  _spawn_ef_lv: 0
+  _spawn_ef_time: 0
+  _spawn_ef_power: 0
+  _spawn_ef_atk: 0
+  _take_dmg_txt: 169

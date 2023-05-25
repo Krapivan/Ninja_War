@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a38e6a9b56fe314892fb1868ba77b94, type: 3}
+  m_Name: user_rune_db
+  m_EditorClassIdentifier: 
+  _count: 0
+  _id: 
+  _set: []
+  _slot: 
+  _star: 
+  _rare: []
+  _lv: 
+  _hero: []
+  _m_stat: []
+  _1_d_stat: []
+  _2_d_stat: []
+  _3_d_stat: []
+  _4_d_stat: []
+  _hp_m: 
+  _hp_p_m: 
+  _atk_m: 
+  _atk_p_m: 
+  _def_m: 
+  _def_p_m: 
+  _spd_m: 
+  _crr_m: 
+  _crd_m: 
+  _acc_m: 
+  _res_m: 
+  _hp_d: 
+  _hp_p_d: 
+  _atk_d: 
+  _atk_p_d: 
+  _def_d: 
+  _def_p_d: 
+  _spd_d: 
+  _crr_d: 
+  _crd_d: 
+  _acc_d: 
+  _res_d: 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ico&rare_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 31517fadefa469244aab298491220807, type: 3}
+    - {fileID: 102900000, guid: e335c8647abfb0f4fa82cbc493a8a1af, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a91034516efc1fa49bd19f6fda4f3273: 21300000
+    - e45ab04326a5a0647b696ada901c99c6: 21300000
+    - 964e2ad5b6cd5da499e9be827374f166: 21300000
+    - 0cca2ae51fe503146b767e50a6d83203: 21300000
+    - ef8621c6804d87b4eb560600074d71f8: 21300000
+    - d7531c17f395bd24c9dcde379e3dbb9b: 21300000
+    - 9fc28e08c7d759b4baa9a80b963b8327: 21300000
+    - 20a0b14eccce21449810c54982a74aa1: 21300000
+    - 870afb7f18a34d044a75b05b8216b63f: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a91034516efc1fa49bd19f6fda4f3273, type: 3}
+  - {fileID: 21300000, guid: e45ab04326a5a0647b696ada901c99c6, type: 3}
+  - {fileID: 21300000, guid: 964e2ad5b6cd5da499e9be827374f166, type: 3}
+  - {fileID: 21300000, guid: 0cca2ae51fe503146b767e50a6d83203, type: 3}
+  - {fileID: 21300000, guid: ef8621c6804d87b4eb560600074d71f8, type: 3}
+  - {fileID: 21300000, guid: d7531c17f395bd24c9dcde379e3dbb9b, type: 3}
+  - {fileID: 21300000, guid: 9fc28e08c7d759b4baa9a80b963b8327, type: 3}
+  - {fileID: 21300000, guid: 20a0b14eccce21449810c54982a74aa1, type: 3}
+  - {fileID: 21300000, guid: 870afb7f18a34d044a75b05b8216b63f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bord(160x160)
+  - S
+  - Naruto_[Genin]_ico
+  - A
+  - B
+  - bg_b
+  - bg_a
+  - bg_s
+  - SS
+  m_RenderDataMap: {}
+  m_Tag: ico&rare_atlas
+  m_IsVariant: 0

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d09b7f8ca231e41b12b0ca093b1367, type: 3}
+  m_Name: ef_ps_db
+  m_EditorClassIdentifier: 
+  _ef_name:
+  - counter
+  - defense
+  - defense+
+  - durability
+  - durability+
+  - healing
+  - healing+
+  - immortal
+  - immunity
+  - lethality
+  - lethality+
+  - rage
+  - rage+
+  - reflect
+  - revival
+  - sharpening
+  - sharpening+
+  - shield
+  - swift
+  - swift+
+  - taunt
+  _ef_art:
+  - {fileID: 21300000, guid: 66045469e32f0ba4a90892b3ba2181eb, type: 3}
+  - {fileID: 21300000, guid: 66fa12f00fd2d394cb9ff746caea3d0e, type: 3}
+  - {fileID: 21300000, guid: 9523d6ebbf8ded9479d6c5f9903f72c3, type: 3}
+  - {fileID: 21300000, guid: 7793567bc604f2f49b5feffcfc861763, type: 3}
+  - {fileID: 21300000, guid: cf333b45a7621de44a0a0f6ace5de327, type: 3}
+  - {fileID: 21300000, guid: 92f2014304a6b42489fc2098d0e62bfa, type: 3}
+  - {fileID: 21300000, guid: f3586d411b6b51649864e5338c9e66bc, type: 3}
+  - {fileID: 21300000, guid: 559efbde052c1774eb1a63fdb4e9b691, type: 3}
+  - {fileID: 21300000, guid: 79e9903397923144ea7d016724015c2b, type: 3}
+  - {fileID: 21300000, guid: 53e9b55dc99e5c5498d3dd77517e0531, type: 3}
+  - {fileID: 21300000, guid: e919d02875e6b9745b6815d51ffd8503, type: 3}
+  - {fileID: 21300000, guid: 56acba3d03b5c9d4dbaa46e05c8b039b, type: 3}
+  - {fileID: 21300000, guid: b6475e21133c3d34884572b18988dc0d, type: 3}
+  - {fileID: 21300000, guid: 065c8543675cc904488533bed2990d41, type: 3}
+  - {fileID: 21300000, guid: f5070a4dd72395e4bbd3b72996e77d5e, type: 3}
+  - {fileID: 21300000, guid: 05d6810b5871778479c7abc5a13b19de, type: 3}
+  - {fileID: 21300000, guid: ddf305923e299714d83512f50053081c, type: 3}
+  - {fileID: 21300000, guid: 771d7883762028747bfb3d288fa6fc06, type: 3}
+  - {fileID: 21300000, guid: 617e5a3c15524434fb7473f0219c8bcf, type: 3}
+  - {fileID: 21300000, guid: 27170aabf35618c469e08baaab466596, type: 3}
+  - {fileID: 21300000, guid: 3f5b5d982dbb9324e9ac636aa1b25b72, type: 3}
+  _ef_power: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _ps_name: []
+  _ps_art: []

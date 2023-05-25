@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3af186e824d884b869dbb4e292df9a, type: 3}
+  m_Name: user_hero_db
+  m_EditorClassIdentifier: 
+  _team:
+  - No
+  - No
+  - No
+  - No
+  - No
+  _team_preset:
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  - No
+  _count: 0
+  _name: []
+  _dubl: 
+  _star: 
+  _ev_star: 
+  _lv: 
+  _xp: 
+  _xp_nd: 
+  _rune_1_id: 
+  _rune_2_id: 
+  _rune_3_id: 
+  _rune_4_id: 
+  _rune_5_id: 
+  _rune_6_id: 
+  _aa_lv: 
+  _sk_lv: 
+  _ul_lv: 
+  _ps_lv: 

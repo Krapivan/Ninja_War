@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 682577d5c381a8e43bcad5d030b48e98
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fight_db: {fileID: 11400000, guid: 392e80516909eeb4382fe83ca05272b9, type: 2}
+  - hero_db: {fileID: 11400000, guid: 62f0d6e6e66688447bb7ae3f9a26b6aa, type: 2}
+  - _hero_slot: {fileID: 7992666217759588655, guid: 3dfa88fd7019d9f498b9f3ffe22410cb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

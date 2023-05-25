@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fb875dbd5743e42be742b43fec454f, type: 3}
+  m_Name: hero_db
+  m_EditorClassIdentifier: 
+  _name:
+  - Naruto [Genin]
+  - Naruto [Genin] Clone
+  _art:
+  - {fileID: 21300000, guid: 88f81a94df0c72942892d27d27e9c81c, type: 3}
+  - {fileID: 21300000, guid: 88f81a94df0c72942892d27d27e9c81c, type: 3}
+  _ico:
+  - {fileID: 21300000, guid: 964e2ad5b6cd5da499e9be827374f166, type: 3}
+  - {fileID: 21300000, guid: 964e2ad5b6cd5da499e9be827374f166, type: 3}
+  _model:
+  - {fileID: 21300000, guid: b8e6522f27697a94cad871e574c72e51, type: 3}
+  - {fileID: 21300000, guid: b8e6522f27697a94cad871e574c72e51, type: 3}
+  anim_con:
+  - {fileID: 9100000, guid: 3d3cfd11e395148478610a60fe5454bf, type: 2}
+  - {fileID: 9100000, guid: 3d3cfd11e395148478610a60fe5454bf, type: 2}
+  _el:
+  - Wind
+  - Wind
+  _type:
+  - Def
+  - Def
+  _rare:
+  - B
+  - B
+  _hp: 4713000047130000
+  _atk: 1601000016010000
+  _def: 6a0100006a010000
+  _spd: 6100000061000000
+  _crr: 0f0000000f000000
+  _crd: 3200000032000000
+  _acc: 0000000000000000
+  _res: 0f0000000f000000
+  _aa_name:
+  - Naruto Combo
+  - Naruto Combo
+  _sk_name:
+  - Shadow Clone
+  - Shadow Clone
+  _ul_name:
+  - Multiple Shadow Clones
+  - Multiple Shadow Clones
+  _ps_name:
+  - Ero Jutsu
+  - Ero Jutsu
+  _aa_art:
+  - {fileID: 21300000, guid: 7bd371d9bcfd73c4c9db0c97f08b3c90, type: 3}
+  - {fileID: 21300000, guid: 7bd371d9bcfd73c4c9db0c97f08b3c90, type: 3}
+  _sk_art:
+  - {fileID: 21300000, guid: aca053cf17819dc49a9baa470d8b0fcb, type: 3}
+  - {fileID: 21300000, guid: aca053cf17819dc49a9baa470d8b0fcb, type: 3}
+  _ul_art:
+  - {fileID: 21300000, guid: 59945f16855a59047afd2c6810e6a848, type: 3}
+  - {fileID: 21300000, guid: 59945f16855a59047afd2c6810e6a848, type: 3}
+  _ps_art:
+  - {fileID: 21300000, guid: 25d7faac6d0ba714bb81ed4d7e0af4e5, type: 3}
+  - {fileID: 21300000, guid: 25d7faac6d0ba714bb81ed4d7e0af4e5, type: 3}
+  _aa_cd: 0000000000000000
+  _sk_cd: 0500000004000000
+  _ul_cd: 0700000005000000
+  _ps_cd: 0000000000000000
+  _aa_pcd: 0000000000000000
+  _sk_pcd: 0000000000000000
+  _ul_pcd: 0000000000000000
+  _ps_pcd: 0000000000000000
+  _aa_el: []
+  _sk_el: []
+  _ul_el: []
+  _ps_el: []
+  _rare_name:
+  - B
+  - A
+  - S
+  - SS
+  _rare_art:
+  - {fileID: 21300000, guid: ef8621c6804d87b4eb560600074d71f8, type: 3}
+  - {fileID: 21300000, guid: 0cca2ae51fe503146b767e50a6d83203, type: 3}
+  - {fileID: 21300000, guid: e45ab04326a5a0647b696ada901c99c6, type: 3}
+  - {fileID: 21300000, guid: 870afb7f18a34d044a75b05b8216b63f, type: 3}

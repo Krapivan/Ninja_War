@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Naruto_[Genin]_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4902a4bd37d4dfb4b96a314d464c5a17, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3d6209a1a1c0e234080fa524a93a5685: 21300000
+    - 7bc88b536bb339a44884ed7cbfeaa20d: 21300000
+    - 88f81a94df0c72942892d27d27e9c81c: 21300000
+    - 59945f16855a59047afd2c6810e6a848: 21300000
+    - bec16426ecd00e4408aac63a6190e3b6: 21300000
+    - 8cf708d7ccba9d449a5921ef8eb37521: 21300000
+    - 7bd371d9bcfd73c4c9db0c97f08b3c90: 21300000
+    - 25d7faac6d0ba714bb81ed4d7e0af4e5: 21300000
+    - b8e6522f27697a94cad871e574c72e51: 21300000
+    - aca053cf17819dc49a9baa470d8b0fcb: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3d6209a1a1c0e234080fa524a93a5685, type: 3}
+  - {fileID: 21300000, guid: 7bc88b536bb339a44884ed7cbfeaa20d, type: 3}
+  - {fileID: 21300000, guid: 88f81a94df0c72942892d27d27e9c81c, type: 3}
+  - {fileID: 21300000, guid: 59945f16855a59047afd2c6810e6a848, type: 3}
+  - {fileID: 21300000, guid: bec16426ecd00e4408aac63a6190e3b6, type: 3}
+  - {fileID: 21300000, guid: 8cf708d7ccba9d449a5921ef8eb37521, type: 3}
+  - {fileID: 21300000, guid: 7bd371d9bcfd73c4c9db0c97f08b3c90, type: 3}
+  - {fileID: 21300000, guid: 25d7faac6d0ba714bb81ed4d7e0af4e5, type: 3}
+  - {fileID: 21300000, guid: b8e6522f27697a94cad871e574c72e51, type: 3}
+  - {fileID: 21300000, guid: aca053cf17819dc49a9baa470d8b0fcb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Naruto_[Genin]_hit
+  - Naruto_[Genin]_pain
+  - Naruto_[Genin]_art
+  - ul
+  - Naruto_[Genin]_die
+  - Naruto_[Genin]_ef
+  - aa
+  - ps
+  - Naruto_[Genin]_idle
+  - sk
+  m_RenderDataMap: {}
+  m_Tag: Naruto_[Genin]_atlas
+  m_IsVariant: 0

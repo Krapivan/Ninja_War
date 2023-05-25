@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7507caeff239e7479fa26e23cef90ba, type: 3}
+  m_Name: story_db
+  m_EditorClassIdentifier: 
+  _chapter:
+  - Land Of Waves
+  _chapter_comp: 00000000
+  _part:
+  - The Stolen Scroll
+  - Kakashi Trial
+  - The Demon of the Hidden Mist
+  - Shinobi Workout
+  - Final Battle On Bridge
+  - Naruto Rage
+  - 'Land Of Waves: Challenge'
+  _part_comp: 00000000000000000000000000000000000000000000000000000000
+  _part_point_art:
+  - {fileID: 21300000, guid: 4395e9de98f83d440b7e3794286f9c10, type: 3}
+  - {fileID: 21300000, guid: f584a9aea77073944af3a50ba2e58c4c, type: 3}
+  - {fileID: 21300000, guid: f5832f51e6766b34a85467011ff76009, type: 3}
+  - {fileID: 21300000, guid: c953c2d204880a944b23ebdd620976ad, type: 3}
+  - {fileID: 21300000, guid: 302766f11f29291438adeed3f8f1f480, type: 3}
+  - {fileID: 21300000, guid: 576420f3365c9b1409ca42ed9c449911, type: 3}
+  - {fileID: 21300000, guid: 19158ec4a9fcca94589e338b87a3c28d, type: 3}
+  _part_enemy:
+  - Naruto [Genin]
+  - No
+  - No
+  - No
+  - No
+  _part_enemy_lv: 01000000
+  _part_enemy_bonus: fcffffff
