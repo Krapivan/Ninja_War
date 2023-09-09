@@ -10,7 +10,7 @@ public class main_pn_sc : MonoBehaviour
     public void Character_Pn_B()
     {
         _character_pn_b.GetComponent<Animation>().Play("click");
-        character_pn_sc.Character_Pn_Op_Cls(1);
+        character_pn_sc.Character_Pn_Op_Cls("op");
     }
 
 

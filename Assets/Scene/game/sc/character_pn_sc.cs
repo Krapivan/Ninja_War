@@ -30,15 +30,15 @@ public class character_pn_sc : MonoBehaviour
 
 
     public GameObject _character_pn, _back_b;
-    public void Character_Pn_Op_Cls(int v)
+    public void Character_Pn_Op_Cls(string v)
     {
-        if (v == 1)
+        if (v == "op")
         {
             _character_pn.SetActive(true);
             _character_pn.GetComponent<Animation>().Play("slide_pn_op");
             Character_Pn_Load();
         }
-        else if (v == 2)
+        else if (v == "cls")
         {
             _character_pn.GetComponent<Animation>().Play("slide_pn_cls");
             Invoke("Character_Pn_Off", 0.4f);
@@ -47,7 +47,7 @@ public class character_pn_sc : MonoBehaviour
     public void Back_B()
     {
         _back_b.GetComponent<Animation>().Play("click");
-        Character_Pn_Op_Cls(2);
+        Character_Pn_Op_Cls("cls");
     }
     void Character_Pn_Off()
     {
@@ -93,7 +93,7 @@ public class character_pn_sc : MonoBehaviour
 
         Hero_Visual_Load(uh_num, h_num);
 
-        Hero_Inf_Har_Pn_B();
+        Hero_Inf_Har_Pn_Op();
     }
     void Hero_Visual_Load(int uh_num, int h_num)
     {
@@ -110,54 +110,33 @@ public class character_pn_sc : MonoBehaviour
     }
 
 
-    void Any_Hero_Inf_Pn_Cls()
+    void Hero_Inf_Pn_Cls()
     {
         if (_hero_inf_har_pn.activeSelf == true)
         {
-            _hero_inf_har_pn.GetComponent<Animation>().Play("push_pn_cls");
-            Invoke("Hero_Inf_Har_Pn_Off", 0.3f);
+            _hero_inf_har_pn.SetActive(false);
         }
-        if (_hero_inf_rune_pn.activeSelf == true)
+        else if (_hero_inf_rune_pn.activeSelf == true)
         {
-            _hero_inf_rune_pn.GetComponent<Animation>().Play("push_pn_cls");
-            Invoke("Hero_Inf_Rune_Pn_Off", 0.3f);
-        }
-        if (_all_rune_pn.activeSelf == true)
-        {
-            _all_rune_pn.GetComponent<Animation>().Play("push_pn_cls");
-            Invoke("All_Rune_Pn_Off", 0.3f);
             GameObject ch_rune_pn = GameObject.Find("ch_rune_pn");
             if (ch_rune_pn != null)
             {
                 ch_rune_pn.GetComponent<ch_rune_pn_sc>().Cls();
             }
+
+            _all_rune_pn.SetActive(false);
+            _hero_inf_rune_pn.SetActive(false);
         }
-        if (_hero_inf_sk_pn.activeSelf == true)
+        else if (_hero_inf_sk_pn.activeSelf == true)
         {
-            _hero_inf_sk_pn.GetComponent<Animation>().Play("push_pn_cls");
-            Invoke("Hero_Inf_Sk_Pn_Off", 0.3f);
             GameObject ch_sk_pn = GameObject.Find("ch_sk_pn");
             if (ch_sk_pn != null)
             {
                 ch_sk_pn.GetComponent<ch_sk_pn_sc>().Cls();
             }
+
+            _hero_inf_sk_pn.SetActive(false);
         }
-    }
-    void Hero_Inf_Har_Pn_Off()
-    {
-        _hero_inf_har_pn.SetActive(false);
-    }
-    void Hero_Inf_Rune_Pn_Off()
-    {
-        _hero_inf_rune_pn.SetActive(false);
-    }
-    void All_Rune_Pn_Off()
-    {
-        _all_rune_pn.SetActive(false);
-    }
-    void Hero_Inf_Sk_Pn_Off()
-    {
-        _hero_inf_sk_pn.SetActive(false);
     }
 
 
@@ -166,16 +145,18 @@ public class character_pn_sc : MonoBehaviour
     public void Hero_Inf_Har_Pn_B()
     {
         _hero_inf_har_pn_b.GetComponent<Animation>().Play("click");
-        if (_hero_inf_har_pn.activeSelf == false)
-        {
-            Any_Hero_Inf_Pn_Cls();
-            _hero_inf_har_pn.SetActive(true);
-            _hero_inf_har_pn.GetComponent<Animation>().Play("push_pn_op");
 
-            int uh_num = user_hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
-            int h_num = hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
-            Hero_Inf_Har_Pn_Load(uh_num, h_num);
-        }
+        Hero_Inf_Har_Pn_Op();
+    }
+    void Hero_Inf_Har_Pn_Op()
+    {
+        Hero_Inf_Pn_Cls();
+        _hero_inf_har_pn.SetActive(true);
+        _hero_inf_har_pn.GetComponent<Animation>().Play("push_pn_op");
+
+        int uh_num = user_hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
+        int h_num = hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
+        Hero_Inf_Har_Pn_Load(uh_num, h_num);
     }
     void Hero_Inf_Har_Pn_Load(int uh_num, int h_num)
     {
@@ -212,15 +193,16 @@ public class character_pn_sc : MonoBehaviour
     {
         _hero_inf_sk_pn_b.GetComponent<Animation>().Play("click");
 
-        if (_hero_inf_sk_pn.activeSelf == false)
-        {
-            Any_Hero_Inf_Pn_Cls();
-            _hero_inf_sk_pn.SetActive(true);
-            _hero_inf_sk_pn.GetComponent<Animation>().Play("push_pn_op");
+        Hero_Inf_Sk_Pn_Op();
+    }
+    void Hero_Inf_Sk_Pn_Op()
+    {
+        Hero_Inf_Pn_Cls();
+        _hero_inf_sk_pn.SetActive(true);
+        _hero_inf_sk_pn.GetComponent<Animation>().Play("push_pn_op");
 
-            int h_num = hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
-            Hero_Inf_Sk_Pn_Load(h_num);
-        }
+        int h_num = hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
+        Hero_Inf_Sk_Pn_Load(h_num);
     }
     void Hero_Inf_Sk_Pn_Load(int h_num)
     {
@@ -259,19 +241,19 @@ public class character_pn_sc : MonoBehaviour
     {
         _hero_inf_rune_pn_b.GetComponent<Animation>().Play("click");
 
-        if (_hero_inf_rune_pn.activeSelf == false)
-        {
-            Any_Hero_Inf_Pn_Cls();
+        Hero_Inf_Rune_Pn_Op();
+    }
+    void Hero_Inf_Rune_Pn_Op()
+    {
+        Hero_Inf_Pn_Cls();
+        _hero_inf_rune_pn.SetActive(true);
+        _hero_inf_rune_pn.GetComponent<Animation>().Play("push_pn_op");
 
-            _hero_inf_rune_pn.SetActive(true);
-            _hero_inf_rune_pn.GetComponent<Animation>().Play("push_pn_op");
+        _all_rune_pn.SetActive(true);
+        _all_rune_pn.GetComponent<Animation>().Play("push_pn_op");
 
-            _all_rune_pn.SetActive(true);
-            _all_rune_pn.GetComponent<Animation>().Play("push_pn_op");
-
-            int uh_num = user_hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
-            Hero_Inf_Rune_Pn_Load(uh_num);
-        }
+        int uh_num = user_hero_db._name.IndexOf(time_game_db._ch_hero_name) + 1;
+        Hero_Inf_Rune_Pn_Load(uh_num);
     }
     public void Hero_Inf_Rune_Pn_Load(int uh_num)
     {

@@ -322,7 +322,6 @@ public class story_pn_sc : MonoBehaviour
         _part_start_b.GetComponent<Animation>().Play("click");
         if (_ally_team_cont.childCount > 0)
         {
-            fight_db._part_num = story_db._part.IndexOf(time_game_db._ch_part) + 1;
             SceneManager.LoadScene("story_fight");
         }
     }

@@ -1,8 +1,6 @@
-using UnityEngine;
-
-public class sk_inf_sc : MonoBehaviour
+public static class sk_inf_sc
 {
-    public string Sk_Inf(string name)
+    public static string Sk_Inf(string name)
     {
         string inf = "";
 
@@ -19,7 +17,7 @@ public class sk_inf_sc : MonoBehaviour
                     "\n4. +10% damage" +
                     "\n5. grow for each [Naruto Clone] up";
             }
-            if (name == "Shadow Clones")
+            if (name == "Shadow Clone")
             {
                 inf = "<b>CD:</b> 5" +
                     "\nSummon [Naruto Clone]; [Naruto Clone]: Have 1s % of Naruto base stats; Have Naruto AA; Live 2 turn." +

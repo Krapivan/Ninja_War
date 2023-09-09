@@ -4,29 +4,27 @@ using TMPro;
 
 public class sk_slot_sc : MonoBehaviour
 {
-    public user_hero_db_sc user_hero_db;
-    public hero_db_sc hero_db;
-    public fight_db_sc fight_db;
+    [SerializeField] user_hero_db_sc _user_hero_db;
+    [SerializeField] hero_db_sc _hero_db;
+    [SerializeField] fight_db_sc _fight_db;
 
 
-    public sk_inf_sc sk_inf_sc;
-
-
-    public hero_slot_sc _hero_slot;
+    [SerializeField]  hero_slot_sc _user_sc;
     int _uh_num, _h_num;
-    [SerializeField]string _sk_type, _sk_name, _hero_name;
+    [SerializeField] string _sk_type, _sk_name, _hero_name;
+    [SerializeField] GameObject _hero;
 
-    private void Awake()
+
+    public void Spawn_Setting(string sk_type, string sk_name, GameObject hero)
     {
-        _sk_type = fight_db._spawn_sk_type;
-        _sk_name = fight_db._spawn_sk_name;
-        _hero_name = fight_db._spawn_sk_hero_name;
-    }
-    private void Start()
-    {
-        _hero_slot = GameObject.Find(_hero_name + "_ally").GetComponent<hero_slot_sc>();
-        _uh_num = user_hero_db._name.IndexOf(_hero_name) + 1;
-        _h_num = hero_db._name.IndexOf(_hero_name) + 1;
+        _sk_type = sk_type;
+        _sk_name = sk_name;
+        _hero = hero;
+
+        _user_sc = hero.GetComponent<hero_slot_sc>();
+        _hero_name = _user_sc._hero_name;
+        _uh_num = _user_hero_db._name.IndexOf(_hero_name) + 1;
+        _h_num = _hero_db._name.IndexOf(_hero_name) + 1;
         Visual_Load();
     }
 
@@ -38,22 +36,22 @@ public class sk_slot_sc : MonoBehaviour
         int cd = 0;
         if (_sk_type == "aa")
         {
-            _art.sprite = hero_db._aa_art[_h_num - 1];
+            _art.sprite = _hero_db._aa_art[_h_num - 1];
         }
         else if (_sk_type == "sk")
         {
-            _art.sprite = hero_db._sk_art[_h_num - 1];
-            cd = _hero_slot._sk_cd;
+            _art.sprite = _hero_db._sk_art[_h_num - 1];
+            cd = _user_sc._sk_cd;
         }
         else if (_sk_type == "ul")
         {
-            _art.sprite = hero_db._ul_art[_h_num - 1];
-            cd = _hero_slot._ul_cd;        
+            _art.sprite = _hero_db._ul_art[_h_num - 1];
+            cd = _user_sc._ul_cd;        
         }
         else if (_sk_type == "ps")
         {
-            _art.sprite = hero_db._ps_art[_h_num - 1];
-            cd = _hero_slot._ps_cd;
+            _art.sprite = _hero_db._ps_art[_h_num - 1];
+            cd = _user_sc._ps_cd;
         }
 
 
@@ -69,14 +67,30 @@ public class sk_slot_sc : MonoBehaviour
     }
 
 
+    [SerializeField] GameObject _sk_inf_pn;
     public void Sk_Slot_B()
     {
-        if (fight_db._ch_sk_type != _sk_type)
+        if (_fight_db._chosen_sk != _sk_name)
         {
-            fight_db._ch_sk_type = _sk_type;
+            _fight_db._chosen_sk = _sk_name;
+
+            GameObject sk_inf_pn = GameObject.Find("sk_inf_pn");
+            if (sk_inf_pn != null)
+            {
+                Destroy(sk_inf_pn);
+            }
+
+            GameObject new_sk_inf_pn = Instantiate(_sk_inf_pn, _fight_db._chosen_sk_pn_place);
+            new_sk_inf_pn.GetComponent<sk_inf_pn_sc>().Spawn_Setting(_sk_name);
         }
-        else if (fight_db._ch_sk_type == _sk_type)
+        else if (_fight_db._chosen_sk == _sk_name && _fight_db._aim == null)
         {
+            _fight_db._chosen_sk = null;
+            GameObject sk_inf_pn = GameObject.Find("sk_inf_pn");
+            if (sk_inf_pn != null)
+            {
+                Destroy(sk_inf_pn);
+            }
         }
     }
 }

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class ch_sk_pn_sc : MonoBehaviour
@@ -7,9 +6,6 @@ public class ch_sk_pn_sc : MonoBehaviour
     public time_game_db_sc time_game_db;
     public user_hero_db_sc user_hero_db;
     public hero_db_sc hero_db;
-
-
-    public sk_inf_sc sk_inf_sc;
 
 
     public string _h_name;
